@@ -162,10 +162,14 @@ header {
 
 
 
-@media screen and (max-width: 800px) {
-    .navbar .nav-links .teams .display-flex {
+@media screen and (max-width: 576px) {
+    .teams, .navbar, .nav-links {
         display: flex;
         flex-direction: column;
+    }
+
+    .teams-desc {
+        margin-left: 1rem;
     }
 
     .image-container {
