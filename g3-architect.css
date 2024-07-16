@@ -1,0 +1,39 @@
+
+
+.display-flex {
+    display: flex;
+}
+
+.nav-items {
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 20px;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.header h2 {
+    font-size: 3.2rem;
+}
+
+@media screen and (max-width: 800px){
+    .header, .display-flex {
+        flex-direction: column;
+    }
+}
